@@ -48,6 +48,10 @@ header, footer, main {
     font-size: xx-large;
 }
 
+.destacar {
+    background-color: aqua;
+}
+
 h2 {
     color:rgb(147, 55, 74);
     font-family: 'Chiquifont';
