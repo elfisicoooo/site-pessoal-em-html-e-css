@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Chiquifont';
+    src: url(Font_Doll.ttf) format(truetype);
+}
+
+body {
+    background-color: rgb(242, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 1px;
+}
+
+header {
+    text-align: center;
+    background-color: brown;
+    border: 2px dashed red;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+header h1 {
+    color:beige;
+    font-family: 'Chiquifont';
+    font-size: xx-large;
+}
+
+h2 {
+    color:rgb(147, 55, 74);
+    font-family: 'Chiquifont';
+    font-size: larger;
+}
+
+a {
+    color: rgb(0, 51, 255);
+}
+
+.imagem {
+    height: 30%;
+    max-height: 300px;
+    margin: 10px;
+}
