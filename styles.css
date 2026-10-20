@@ -1,18 +1,20 @@
 @font-face {
     font-family: 'Chiquifont';
-    src: url(Font_Doll.ttf) format(truetype);
+    src: url(fonts/Font_Doll.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     background-color: rgb(242, 255, 255);
     font-family: Arial, sans-serif;
+    color: rgb(65, 65, 65);
 }
 
-main {
-    width: 90%;
-    max-width: 900px;
-    margin: 0px auto;
-    padding: 1px;
+.conteiner img {
+    width: 20vw;
+    height: auto;
+    min-width: 150px;
 }
 
 header {
@@ -21,12 +23,26 @@ header {
     border: 2px dashed red;
 }
 
-footer {
-    text-align: center;
-    font-size: 13px;
+main {
+    background-color: rgb(220, 251, 251);
+    border: 2px dashed rgb(177, 248, 248);
 }
 
-header h1 {
+footer {
+    text-align: justify;
+    font-size: 13px;
+    background-color: rgb(177, 225, 225);
+    border: 2px dashed rgb(159, 222, 222);
+}
+
+header, footer, main {
+    width: 90%;
+    max-width: 910px;
+    margin: 0px auto;
+    padding: 1%;
+}
+
+#titulo {
     color:beige;
     font-family: 'Chiquifont';
     font-size: xx-large;
@@ -40,10 +56,4 @@ h2 {
 
 a {
     color: rgb(0, 51, 255);
-}
-
-.imagem {
-    height: 30%;
-    max-height: 300px;
-    margin: 10px;
 }
